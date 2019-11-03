@@ -28,10 +28,16 @@
   - docker run -p, --publish list                   Publish a container's port(s) to the host
   - docker run --name "pieceful" -d -p 8000:80 nginx
   - curl $(docker-machine ip Char):8000
+  #### docker start
   #### docker stop
   - Docker stop pieceful
   #### docker rm
   - the container need firstly be stopped then be removed
+  #### docker exec 
+  > docker exec -it <container> bash
+  
+### docker swarm-mode
+### docker service
 ### others
 
 
