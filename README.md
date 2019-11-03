@@ -35,6 +35,9 @@
   - the container need firstly be stopped then be removed
   #### docker exec 
   > docker exec -it <container> bash
+  
+### docker swarm-mode
+### docker service
 ### others
 
 
