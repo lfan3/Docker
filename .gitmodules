@@ -1,3 +1,6 @@
 [submodule "01_dockerfiles/01_dockerfiles/ex02/app"]
 	path = 01_dockerfiles/01_dockerfiles/ex02/app
 	url = https://github.com/bafraikin/achetemachat.git
+[submodule "01_dockerfiles/ex02/app1"]
+	path = 01_dockerfiles/ex02/app1
+	url = https://github.com/bafraikin/achetemachat.git
