@@ -39,9 +39,18 @@
 ### docker swarm-mode
 ### docker service
 ### others
-
-
-
+RUBY:
+docker run -dit debian
+docker exec -it id_debian
+gem install rails
+-apt install ruby-full
+sudo apt-get install ruby-dev zlib1g-dev liblzma-dev
+rails new blog
+apt-get install libsqlite3-dev
+rails -s(gem install webpacker)
+(bundle install)
+apt-get install nodejs
+apt install yarn// https://yarnpkg.com/en/docs/install#mac-stable
 
 
 # extra
