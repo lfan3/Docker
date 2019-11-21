@@ -1,0 +1,23 @@
+version: '2' # specify docker-compose version
+
+#il faut avoir espace entre - et premier letter, the same with :
+services:
+  angular: 
+    build: angular-client 
+    ports:
+      - "4200:4200"
+    volumes:
+        - ./angular-client:/app
+
+
+  express: 
+    build: express-server 
+    ports:
+      - "3000:3000" 
+    links:
+      - database
+
+  database: 
+    image: mongo 
+    ports:
+      - "27017:27017" 

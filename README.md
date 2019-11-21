@@ -55,6 +55,8 @@ rails -s(gem install webpacker)
 apt-get install nodejs
 apt install yarn// https://yarnpkg.com/en/docs/install#mac-stable
 
+# tmp
+docker run -itd --name=container1 busybox
 # error solution
 -How to Keep Docker Containers Running
 >Docker containers, when run in detached mode (the most common -d option), are designed to shut down immediately after the initial entrypoint command (program that should be run when container is built from image) is no longer running in the foreground. This can cause problems because often servers or services running in Docker containers are run in the background, causing your container to shut down before you want it to.
@@ -67,4 +69,21 @@ CMD tail -f /dev/null
 # extra
 -tape zsh to change another terminal
 
+# source
+# ssh
+- https://gitlab.com/gitlab-org/omnibus-gitlab/issues/3272
+- https://gitlab.com/gitlab-org/omnibus-gitlab/issues/3272
+- https://medium.com/@1997corry/running-your-own-gitlab-on-docker-community-edition-39c4a8f99553
+- https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/docker/assets/wrapper#L112
 
+# source PAMP
+- https://medium.com/@celsocelante/apache-mariadb-php-docker-compose-c19337fe9117
+- https://doc.ubuntu-fr.org/docker_lamp
+
+# source for mean
+- https://medium.com/@maheshkariya/mean-stack-angular-6-crud-web-application-8c92ae93690f
+- https://scotch.io/tutorials/create-a-mean-app-with-angular-2-and-docker-compose
+- https://medium.com/joolsoftware/how-to-set-up-an-angular-cli-project-with-docker-compose-a3ec78f179ab
+
+#TO DO
+- probleme with expresse and mongoose connection
