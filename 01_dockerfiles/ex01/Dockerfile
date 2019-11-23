@@ -5,6 +5,7 @@ MAINTAINER linfan <linfan@student.42.fr>
 ENV TS3SERVER_LICENSE=accept
 
 WORKDIR /home/teamspeak
+
 #virtual voice server on 9987/udp
 #the ServerQuery on port 10011/tcp
 #file transfer on 30033/tcp

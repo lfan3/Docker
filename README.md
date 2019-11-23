@@ -86,4 +86,5 @@ CMD tail -f /dev/null
 - https://medium.com/joolsoftware/how-to-set-up-an-angular-cli-project-with-docker-compose-a3ec78f179ab
 
 #TO DO
-- probleme with expresse and mongoose connection
+DD-dd probleme with expresse and mongoose connectionI
+verifier apartir 21

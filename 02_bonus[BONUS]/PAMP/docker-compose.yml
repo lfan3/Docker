@@ -25,3 +25,4 @@ services:
         links:
             - db:db
 
+# docker-compose up -d
