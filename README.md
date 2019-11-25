@@ -87,4 +87,4 @@ CMD tail -f /dev/null
 
 #TO DO
 DD-dd probleme with expresse and mongoose connectionI
-verifier apartir 21
+14 15 worldpresse and sql connection problem
